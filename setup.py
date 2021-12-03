@@ -17,19 +17,6 @@ setup(
     url="https://github.com/UKPLab/sentence-transformers",
     download_url="https://github.com/UKPLab/sentence-transformers/archive/v2.0.0.zip",
     packages=find_packages(),
-    install_requires=[
-        'transformers>=4.6.0,<5.0.0',
-        'tokenizers>=0.10.3',
-        'tqdm',
-        'torch>=1.6.0',
-        'torchvision',
-        'numpy',
-        'scikit-learn',
-        'scipy',
-        'nltk',
-        'sentencepiece',
-        'huggingface-hub'
-    ],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Science/Research",
